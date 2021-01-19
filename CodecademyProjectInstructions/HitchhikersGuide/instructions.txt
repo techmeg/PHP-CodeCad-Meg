@@ -1,0 +1,102 @@
+The Hitchhiker's Guide to PHP Math Functions
+Each step of the project provides a math operation that can be completed using built-in PHP functions. Use the documentation to find them and apply them correctly to get the answer.
+
+Tasks
+10/10 Complete
+Mark the tasks as complete by checking them off
+Functions
+1.
+We have given you an $initial value to start from as an octal string. (octal is a base 8 system of notation, instead of the likely more familiar decimal base 10 system).
+
+Using the PHP Documentation, find a PHP function to convert this octal string to a decimal number.
+
+Sometimes it might be easier to use your favorite search engine to locate the right page within the PHP documentation.
+
+Save the result in a variable $a. Throughout this project, print your result at each step and check it against the hint. Be sure to add a newline at the end of each print statement.
+
+
+Hint
+Use the octdec() function.
+
+$a should be 365.
+
+2.
+The value of $a is a number of degrees. Use a PHP function to convert it to radians and store the result in a new variable, $b.
+
+
+Hint
+Use the deg2rad() function.
+
+$b should be 6.3704517697793.
+
+3.
+Use a built-in PHP function to take the cosine of $b and store it in a new variable, $c.
+
+
+Hint
+Use the cos() function.
+
+$c should be 0.99619469809175.
+
+4.
+Use a built-in PHP function to round $c to 3 decimal places and store the result in a new variable, $d.
+
+
+Hint
+Use the round() function.
+
+Be sure to pass 3 as the second argument to set the number of decimal places.
+
+$d should be 0.996.
+
+5.
+Find a PHP function to take the natural log of $d and store the result in a new variable, $e.
+
+
+Hint
+Use the log() function.
+
+$e should be -0.0040080213975388.
+
+6.
+Use a PHP function to take the absolute value of $e and store it in $f.
+
+
+Hint
+Use the abs() function.
+
+$f should be 0.0040080213975388.
+
+7.
+Use a PHP function to take the inverse, or arc cosine of $f and store the result in $g.
+
+
+Hint
+Use the acos() function.
+
+$g should be 1.5667882946663.
+
+8.
+$g is a number in radians. Use a PHP function to convert this to a number of degrees and store it as $h.
+
+
+Hint
+Use the rad2deg() function.
+
+$h should be 89.770356674879.
+
+9.
+Use a PHP function to floor (round down) $h and store the result in $i.
+
+
+Hint
+Use the floor() function.
+
+$i should be 89.
+
+10.
+Subtract 47 from $i to arrive at the solution, $j.
+
+
+Hint
+The solution should be 42.
